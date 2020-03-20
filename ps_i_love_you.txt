@@ -1,1 +1,18 @@
+The most basic command to check all the processes running is:
+$ps
+For detailed process, state and memory usage:
+$ps aux 
+
+To check all the jobs that launched from this particular terminal:
+$jobs
+
+Start a process:
+$gedit
+
+Now, to put gedit in the background:
+$fg %1
+
+Stop the process but keep it running in the background.
+$kill -TERM pid
+
 
