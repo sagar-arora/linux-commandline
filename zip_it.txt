@@ -1,0 +1,20 @@
+zip [options] zipfile files_list
+
+zipfile: the name you want to give your zip after zipping.
+
+I like the following options:
+
+I always add the file I am not supposed to add. So, I remove it using the particular file from the zip 
+using -d option.
+
+$zip -d zipfile file1.txt
+
+$zip –u filename.zip file.txt
+
+
+
+$unzip zipfile
+
+-d /path/to/extact/location: Unzip an archive to a different directory.
+
+-x filename: Extract the archive but do not extract the specified files.
